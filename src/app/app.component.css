@@ -1,0 +1,394 @@
+ .menu {
+    background: linear-gradient(to right, cornflowerblue, aqua, deeppink, cornflowerblue);
+    background-size: 600% 600%;
+    animation: gradient 20s linear infinite;
+    filter: drop-shadow(0px 0px 3px cornflowerblue);
+    font-weight: 400;
+    font-size: large;
+    font-weight: 600;
+    text-shadow: 0px 0px 3px cornflowerblue;
+    color: brown;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    left: 0;
+
+
+    li {
+        display: inline-block;
+        font-weight: bold;
+        padding: 2rem;
+        text-align: right;
+
+        &:hover {
+            transform: translateY(-5px);
+
+            color: #d611d6;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            background-image: linear-gradient(to bottom right, #66ffcc 0%, #ffccff 100%);
+            font-size: 600;
+            font-style: italic;
+            font-weight: bold;
+            border: solid 2px #d611d6;
+            border-radius: 10px;
+
+
+
+
+
+        }
+    }
+
+
+
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 600% 50%;
+    }
+}
+
+
+
+
+
+
+
+
+li {
+    display: inline-block;
+    padding: 2rem;
+
+}
+
+
+.button {
+    flex: 1;
+    padding: 10px;
+    position: absolute;
+    right: 20px;
+    ;
+    margin-top: 15px;
+    background-image: linear-gradient(to bottom right, #66ffcc 0%, #ffccff 100%);
+    border: none;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 700;
+    font-style: italic;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+
+    &:hover {
+     
+        background: linear-gradient(to right, cornflowerblue, aqua, deeppink, cornflowerblue);
+        background-size: 600% 600%;
+        animation: gradient 20s linear infinite;
+        filter: drop-shadow(0px 0px 3px cornflowerblue);
+        font-size: large;
+        font-weight: 400;
+        text-shadow: 0px 0px 3px cornflowerblue;
+    }
+}
+
+
+
+
+.tabs {
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.tab-links {
+    display: flex;
+    border-bottom: 1px solid cornflowerblue;
+}
+
+.tab-button {
+    flex: 1;
+    padding: 10px;
+    background-image: linear-gradient(to bottom right, #66ffcc 0%, #ffccff 100%);
+    border: none;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    font-size: large;
+    font-style: italic;
+    font-weight: 700;
+    transition: background-color 0.3s, color 0.3s;
+
+    &:hover {
+      
+        background: linear-gradient(to right, cornflowerblue, aqua, deeppink, cornflowerblue);
+        background-size: 600% 600%;
+        animation: gradient 20s linear infinite;
+        filter: drop-shadow(0px 0px 3px cornflowerblue);
+        font-weight: 400;
+        font-size: large;
+        font-weight: 600;
+        text-shadow: 0px 0px 3px cornflowerblue;
+    }
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 600% 50%;
+    }
+}
+
+
+.environment h1 {
+    margin-top: 100px;
+    cursor: pointer;
+
+}
+.hidden {
+    display: none;
+  }
+
+.columns.hidden {
+    display: none;
+}
+
+
+
+
+.status-button__group {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin-bottom: 16px;
+    margin-top: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+.status-button {
+    font-weight: 300;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    transition: all 0.4s;
+
+}
+
+.status-button:link,
+.status-button:visited {
+    font-weight: 300;
+    padding: 13px;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    transition: all 0.4s;
+    font-style: italic;
+
+}
+
+@media (hover: hover) {
+    .status-button :hover {
+        transform: translateY(-4px);
+        box-shadow: 0 1rem 6rem rgba(0, 0, 0, 0.2);
+
+    }
+}
+
+.status-button {
+    transform: translateY(1px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+
+}
+
+
+.status-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    color: #fff;
+    background-color: #007a69;
+    border: 1px solid #007a69;
+    margin-top: 2rex;
+    margin-bottom: 1px;
+
+}
+
+
+
+
+
+
+.container {
+        justify-content: center;
+        gap: 20px;
+    display: flex;
+        flex-wrap: wrap;
+        color: brown;
+        font-size: 15px;
+        font-weight: bold;
+        font-style: italic;
+        margin-bottom: 10px;
+        padding: 30px;
+    
+    
+    
+    }
+    
+    
+    
+    .collapsible {
+        background-color: #777;
+        color: white;
+        cursor: pointer;
+        padding: 10px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+      }
+      
+      .active, .collapsible:hover {
+        background-color: #555;
+      }
+      
+      .content {
+        padding: 0 18px;
+        display: none; /* Hidden by default */
+        overflow: hidden;
+        background-color: #f1f1f1;
+      }
+      
+      .content.active {
+        display: block; /* Show when active */
+      }
+      
+    
+    
+    
+    
+    
+    
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        
+    }
+    
+    
+    
+    .card .highlight {
+        padding: 5px 16px;
+        display: flex;
+        margin-bottom: 20px;
+    } 
+
+
+ 
+     .container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        flex-wrap: wrap;
+        color: brown;
+        font-size: 15px;
+        font-weight: bold;
+        font-style: italic;
+        flex:1;
+        flex-direction: column;
+        margin: 0 8px;
+      }
+
+   
+      
+.card-info {
+    margin-top: 8px;
+}
+
+
+ .card {
+    transition: transform 0.3s ease-in-out;
+    text-decoration-color: floralwhite;
+    border-radius: 8px;
+    border: solid 1px #0acddf;
+    box-shadow: 0 4px 8px rgba(92, 104, 4, 0.934);
+    width: 300px;
+    margin: 10px;
+    background-image: linear-gradient(to bottom right, #66ffcc 0%, #ffccff 100%);
+    color: brown;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 30px;
+    flex-direction: column;
+    margin-right: 30px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+} 
+
+/* .card.hidden {
+    display: none;
+    height: 30px;
+    overflow: hidden;
+    padding: 5px;
+    cursor: pointer;
+} */
+.card.hidden {
+    height: 30px; 
+    overflow: hidden;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+.columns {
+    display: flex;
+    justify-content: 50px;
+    column-gap: 90px;
+}
+
+.status-button {
+    display: block;
+    margin: 20px 0;
+    text-align: center;
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+.card .highlight {
+    padding: 5px 16px;
+    display: flex;
+    margin-bottom: 20px;
+} 
+
+
+

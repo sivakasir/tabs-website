@@ -1,0 +1,7 @@
+.menu {
+    background-color: aqua;
+    padding: 0%;
+    ul {
+        text-align: inline-block;
+    }
+}
